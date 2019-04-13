@@ -1,0 +1,78 @@
+.header{
+	color: red;
+}
+.navbar ul{
+list-style-type: none;
+background-color: lightblue;
+height: 40px;
+padding-top: 10px;
+text-align: center;
+}
+.navbar ul li{
+display: inline;
+text-align: center;
+
+}
+.navbar ul li a{
+	text-decoration: none;
+	padding: 10px;
+	color: #000;
+	font-weight: bolder;
+}
+body{
+	background-image: url(bck.png);
+	background-repeat: no-repeat;
+	background-size: 100%; 
+}
+.footer{
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	background-color: #000000;
+	color: #fff;
+	width: 100%;
+	height: 30px;
+	clear: both;
+	float: bottom;
+}
+.mainbody{
+width: 600px;
+margin: 0 auto;
+
+}
+.mainbody form{
+	width: 600px;
+clear: both;
+overflow: auto;
+}
+.textinput{
+	width: 600px;
+	padding: 10px;
+	border: 1px solid green;
+	margin-bottom: 3px; 
+	overflow: scroll;
+}
+.mainbody h3{
+	font-weight: bolder;
+	text-align: center;
+	background-color: green;
+	color: #fff;
+	padding: 10px;
+	width: 600px;
+}
+
+.mainbody button{
+	float: right;
+	margin-bottom: 5px;
+	padding: 10px;
+	background-color: green;
+	color: #fff;
+}
+.mainbody h4{
+	text-align: center;
+	font-weight: bolder;
+	color: #fff;
+	padding: 10px;
+	background-color: green;
+	width: 600px;
+}
